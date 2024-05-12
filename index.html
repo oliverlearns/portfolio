@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  <title>Portfolio | Oliver Garcia</title>
+
+  <!--  main website icon -->
+  <link rel="shortcut icon" type="x-icon" href="css/assets/myicon.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css1?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  <!-- external css -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #FAFAFA;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link mx-1 mx-sm-5" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-1 mx-sm-5" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-1 mx-sm-5" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main section  -->
+  <section id="main" class="main py-5">
+    <div class="container py-5">
+      <div class="container-a row">
+        <div class="main-text col-lg-6 col-sm-3">
+          <h3><small>Hello, I'm</small></h3>
+          <h1>Oliver Garcia</h1>
+          <div class="row">
+            <div class="col-lg-3">
+                <button class="btn bt1 mt-2" onclick="openPdf()">View Resume</button>
+            </div>
+            <div class="bt2col col-lg-3 mt-2 mt-lg-0">
+              <a class="btn bt2 mt-2" href="#contact">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- about section-->
+  <section id="about" class="section-fluid">
+    <div class="container py-5">
+      <div class="section-container row">
+        <div class="col-lg-6 pt-3">
+          <div class="section__pic-container">
+            <img src="css/assets/aboutme.png" alt="Profile picture" class="about-pic img-fluid">
+          </div>
+        </div>
+        <div class="about-details-container col-lg-6">
+          <div class="row about-containers">
+            <div class="text-container">
+              <h1 class="title p-2">About Me</h1>
+              <p class="abouttext text-justify p-2 mb-4">
+                I'm a recent graduate with a Bachelor's degree in Computer Engineering, and I've got some pretty cool
+                experience as a Virtual Assistant. Right now, I'm on the hunt for an awesome technical position where I
+                can put my skills to the test. I'm passionate about utilizing my technical expertise, my thirst for
+                continuous learning, and my problem-solving abilities to make a meaningful contribution. I'm super
+                enthusiastic, whether I'm collaborating with a team or working independently, and I'm dedicated to
+                achieving exceptional outcomes in any professional environment. Let's team up and create something
+                extraordinary!
+              </p>
+            </div>
+            <div class="col-md-5">
+              <div class="card details-container mb-4 text-center">
+                <div class="card-body">
+                  <div class="icon-heading">
+                    <img src="css/assets/workicon.png" alt="Experience icon" class="icon">
+                    <h4 class="card-title">Experience</h4>
+                  </div>
+                  <h6 class="card-subtitle mb-2">Virtual Assistant</h6>
+                  <p class="card-text">3+ years</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="card details-container mb-4 text-center">
+                <div class="card-body px-0">
+                  <div class="icon-heading">
+                    <img src="css/assets/graduateicon.png" alt="Education icon" class="icon">
+                    <h4 class="card-title">Education</h4>
+                  </div>
+                  <h6 class="card-subtitle mb-2">Polytechnic University of the Philippines</h6>
+                  <p class="card-text">2018-2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- arrow button -->
+  <a href="#" class="to-top">
+    <img src="css/assets/arrow.png" alt="Arrow icon" class="topicon">
+  </a>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section py-4">
+    <div class="container py-4 my-2">
+      <h1 class="title text-center pb-4">Skills</h1>
+      <div class="skills-container text-center mx-auto">
+        <div class="row row-cols-2">
+          <div class="icon-class col-md-4 py-4"><img src="css/assets/jsicon.png" alt="js icon"
+              data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Javascript" class="icon"></div>
+          <div class="icon-class col-md-4 py-4"><img src="css/assets/htmlicon.png" alt="html icon"
+              data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="HTML" class="icon"></div>
+          <div class="icon-class col-md-4 py-4"><img src="css/assets/cssicon.png" alt="css icon"
+              data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="CSS" class="icon"></div>
+          <div class="icon-class col-md-4 py-4"><img src="css/assets/psicon.png" alt="ps icon"
+              data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Adobe Photoshop" class="icon"></div>
+          <div class="icon-class col-md-4 py-4"><img src="css/assets/figmaicon.png" alt="figma icon"
+              data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Figma" class="icon"></div>
+          <div class="icon-class col-md-4 py-4"><img src="css/assets/xdicon.png" alt="xd icon"
+              data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" title="Adobe XD" class="icon"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-4">
+    <div class="container py-5">
+      <h1 class="title text-center pb-2">Contact</h1>
+      <div class="form-container mx-auto mt-4">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation" novalidate>
+          <input type="hidden" name="access_key" value="5c4593ce-ee1d-40f7-a0d6-12fb15a24ff2" />
+          <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+          <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
+                <label for="name">Name</label>
+                <div class="invalid-feedback">
+                  Please enter your name.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required />
+                <label for="email">Email</label>
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required />
+            <label for="subject">Subject</label>
+            <div class="invalid-feedback">
+              Please enter a subject (at least 8 characters).
+            </div>
+          </div>
+
+          <div class="form-floating mb-3">
+            <textarea class="form-control" id="message" name="message" placeholder="Your Message" required
+              rows="5"></textarea>
+            <label for="message">Message</label>
+            <div class="invalid-feedback">
+              Please enter your message.
+            </div>
+          </div>
+
+          <div class="subicon row gx-2 mb-0">
+            <div class="col form-group d-flex ms-2 justify-content-center justify-content-md-start">
+              <button type="submit" class="btn bt3">Submit</button>
+            </div>
+            <div class="col form-group">
+              <ul class="socials">
+                <span data-bs-custom-class="custom-tooltop" data-bs-toggle="tooltip" data-bs-html="true"
+                  title="LinkedIn">
+                  <li><a href="#" class="iconbox" id="linkedin-link"><img src="css/assets/linkedinicon.png"
+                        alt="Linkedin" class="linkedin"></a></li>
+                </span>
+                <span data-bs-custom-class="custom-tooltop" data-bs-toggle="tooltip" data-bs-html="true"
+                  title="Phone Number">
+                  <li><a href="#" class="iconbox" id="phone-icon"><img src="css/assets/phoneicon.png" alt="Phone"
+                        class="phone"></a></li>
+                </span>
+                <span data-bs-custom-class="custom-tooltop" data-bs-toggle="tooltip" data-bs-html="true"
+                  title="Facebook">
+                  <li><a href="#" class="iconbox" id="facebook-link"><img src="css/assets/facebookicon.png"
+                        alt="Facebook" class="facebook"></a></li>
+                </span>
+              </ul>
+            </div>
+          </div>
+          <p class="text-base text-center text-gray-400 mt-3" id="result"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <footer>
+      <div class="nav justify-content-center border-bottom pb-3 mb-3">
+      </div>
+      <p class="footertext text-center text-muted">&copy; 2024 Oliver Garcia Jr. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <!-- js files -->
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/formSubmit.js"></script>
+
+</body>
+</html>
+
+<!-- fix tom
+  resume
+  publish git
+-->
